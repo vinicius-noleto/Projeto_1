@@ -1,0 +1,54 @@
+Algoritmo "Mensagem encriptada"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Descrição   : Dada uma lista de números com um número ímpar de elementos, desenvolva um algoritmo que encontre a mediana.
+// Autor(a)    : Vinicius Nolêto
+// Data atual  : 06/03/2022
+inicio
+#include <stdio.h>
+#include <string.h>
+int main(void) {
+    char palavra[100];
+       printf("%s-%i", palavra, strlen(tenha um bom dia);
+
+    for (i=strlen(palavra)-2; i >=0; i--) {
+        printf("%c", palavra[i]);
+for (i = 0; i < TAM; i++) {
+        for (j = 0; j <  TAM; j++) {
+            m1[i][j] = rand()%2;
+            m2[i][j] = rand()%2;
+        }
+    }
+
+      for (i = 0; i < TAM; i++) {
+        for (j = 0; j <  TAM; j++) {
+            printf("%i ", m1[i][j]);
+        }
+        printf("\n");
+    }
+    printf("\n");
+
+       for (i = 0; i < TAM; i++) {
+        for (j = 0; j <  TAM; j++) {
+            printf("%i ", m2[i][j]);
+        }
+        printf("\n");
+    }
+
+    //testa se matrizes são iguais
+    for (i = 0; i < TAM; i++) {
+        for (j = 0; j <  TAM; j++) {
+            if (m1[i][j] != m2[i][j]) {
+                igual = 0;
+            }
+        }
+    }
+
+    if (igual == 1) {
+        printf("Matrizes iguais");
+    } else {
+        printf("Matrizes diferentes");
+    }
+
+    return 0;
+}
+Fimalgoritmo
