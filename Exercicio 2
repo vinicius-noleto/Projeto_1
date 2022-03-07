@@ -3,7 +3,6 @@ Algoritmo "Vetor"
 // Descrição   : Dada uma lista de números com um número ímpar de elementos, desenvolva um algoritmo que encontre a mediana.
 // Autor(a)    : Vinicius Nolêto
 // Data atual  : 06/03/2022
-var
 #include <stdio.h>
 
 #define TAM 5 //define constante
